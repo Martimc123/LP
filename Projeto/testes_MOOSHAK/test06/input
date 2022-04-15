@@ -1,0 +1,2 @@
+ Fila = [A, B, C, #, D, #, #, E, G, H, I, #, J, #, #, K, L, M, N], espacos_fila(Fila, Esps), Esps == [[A, B, C], [E, G, H, I], [K, L, M, N]], writeln('true'); writeln('false').
+Fila = [A, B, C, #, D, #, #, E, G, H, I, #, J, #, #, K, L, M, N], espacos_fila(Fila, Esps), Esps == [[K, L, M, N], [E, G, H, I], [A, B, C]], writeln('true'); writeln('false').

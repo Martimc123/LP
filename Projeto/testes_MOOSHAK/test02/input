@@ -1,0 +1,1 @@
+obtem_letras_palavras([ima, boi, ato, ajo, soa, avo, aco], Letras), writeln(Letras) ; writeln('false').

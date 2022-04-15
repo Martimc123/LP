@@ -1,0 +1,8 @@
+soma_elementos([],0).
+
+soma_elementos([P|R],N) :- integer(P),!,
+                           soma_elementos(R,N),
+                           NP is N+P.
+
+soma_elementos([_|R],N) :- soma_elementos(R,N).
+
