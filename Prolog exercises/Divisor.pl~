@@ -1,0 +1,2 @@
+divisor(D,N) :- M is mod(D,N),
+                M == 0.

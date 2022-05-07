@@ -1,9 +1,0 @@
-:- [palavra_uni].
-
-palavra_possivel_esp(Pal, Esp, Esps, Letras) :-
-    length(Pal,C1),
-    length(Esp,C2),
-    C1 == C2,
-    Pal = Esp,
-    espacos_com_posicoes_comuns(Esps,Esp,NEsps),
-    espacos_pal_uni(NEsps,Letras),!.

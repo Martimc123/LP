@@ -1,5 +1,0 @@
-consulta_el(P,[N|_]) :- P == N,!.
-
-consulta_el(P,[N|R]) :- P \== N,!,
-                        consulta_el(P,R).
-

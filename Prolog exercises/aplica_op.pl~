@@ -1,0 +1,13 @@
+aplica_op(OP,V1,V2,R) :-  OP == *,!,
+                           R is V1 * V2.
+
+aplica_op(OP,V1,V2,R) :-  OP == +,!,
+                           R is V1 + V2.
+
+aplica_op(OP,V1,V2,R) :-  OP == -,!,
+                           R is V1 - V2.
+
+aplica_op(OP,V1,V2,R) :-  OP == /,!,
+                           R is V1 / V2.
+
+

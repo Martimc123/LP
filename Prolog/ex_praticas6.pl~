@@ -1,4 +1,0 @@
-p(X,Y) :- X=a, q(Y).
-p(X,Y) :- Y=b, q(X).
-p(X,Y) :- q(X), q(Y).
-q(c).

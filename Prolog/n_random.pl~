@@ -1,6 +1,0 @@
-n_aleatorios(El,INF,SUP,L) :- n_aleatorios(El,INF,SUP,L,0).
-
-n_aleatorios(El,INF,SUP,L,AC) :- AC =< El,
-                                 junta_novo_aleatorio(L,INF,SUP,L2),
-                                 NAC is AC + 1,
-                                 n_aleatorios(El,INF,SUP,L2,NAC).

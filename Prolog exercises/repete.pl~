@@ -1,0 +1,5 @@
+repete_el(El,0,[]) :- !.
+
+repete_el(El,N,[El|L]) :- N >= 1,
+                          Num is N-1,
+                          repete_el(El,Num,L).
